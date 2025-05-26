@@ -5,6 +5,7 @@ import matplotlib.lines as mlines
 import matplotlib.patches as mpatches
 from scipy.stats import entropy
 
+# Set environment order and color palette
 env_order = ['Buffer', 'Vesicle', 'Oleic']
 env_palette = {'Buffer': 'blue', 'Vesicle': 'green', 'Oleic': 'orange'}
 
